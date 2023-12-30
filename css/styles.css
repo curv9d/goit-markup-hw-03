@@ -28,7 +28,6 @@ a {
 }
 
 .container {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -239,6 +238,10 @@ a {
     background-color: #FFFFFF;
 }
 
+.portfolio-section-name {
+    margin-bottom: 72px;
+}
+
 .portfolio-element-div {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -251,7 +254,6 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
     margin-bottom: 8px;
 }
 
