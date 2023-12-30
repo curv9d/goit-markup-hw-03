@@ -185,12 +185,12 @@ a {
 .team-section-list {
     display: flex;
     gap: 24px;
-    width: calc((100%-72px)/4);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .member-list-element {
     background-color: #FFFFFF;
+    width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-member-name {
@@ -238,7 +238,6 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 72px;
-    margin-bottom: 8px
 }
 
 .portfolio-section-list {
