@@ -4,6 +4,10 @@ body {
     background-color: #FFFFFF;
 }
 
+img {
+    display: block;
+}
+
 ul, ol {
     list-style: none;
 }
@@ -11,6 +15,26 @@ ul, ol {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+            /* HEADER */
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+    background: #FFFFFF;
+    
+}
+
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -21,10 +45,16 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo-studio {
     color: #2e2f42;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 40px;
 }
 
 .navigation {
@@ -40,6 +70,7 @@ a {
 }
 
 .address {
+    display: flex;
     font-style: normal;
 }
 
@@ -54,6 +85,13 @@ a {
 .feedback:hover {
     color: #404bbf;
 }
+
+.feedback-ul {
+    display: flex;
+    gap: 40px;
+}
+
+            /* ORDER-SECTION */
 
 .order-section {
     background-color: #2e2f42;
@@ -86,6 +124,8 @@ a {
     background-color: #404BBF;
 }
 
+            /* OFFER-SECTION */
+
 .offer-section-offers {
     color: #2E2F42;
     font-size: 20px;
@@ -99,6 +139,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+            /* TEAM-SECTION */
 
 .team-section {
     background-color: #F4F4FD;
@@ -134,6 +176,8 @@ a {
     letter-spacing: 0.02em;
 }
 
+            /* PORTFOLIO-SECTION */
+
 .portfolio-section-img {
     background-color: #FFFFFF;
 }
@@ -152,6 +196,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+            /* FOOTER */
 
 .footer {
     background-color: #2e2f42;
