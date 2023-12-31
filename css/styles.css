@@ -2,8 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    margin: 0;
-    padding: 0;
 }
 
 img {
@@ -242,7 +240,9 @@ a {
 }
 
 .portfolio-container {
-    
+    max-width: 1158px;
+    margin: 0;
+    padding: 0 15px;
 }
 
 .portfolio-section-img {
