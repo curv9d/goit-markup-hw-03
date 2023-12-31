@@ -2,6 +2,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -17,6 +19,10 @@ ul, ol {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.section {
+    padding: 120px 0;
 }
 
             /* HEADER */
@@ -233,6 +239,10 @@ a {
 
 .portfolio-section {
     padding: 120px 0;
+}
+
+.portfolio-container {
+    
 }
 
 .portfolio-section-img {
