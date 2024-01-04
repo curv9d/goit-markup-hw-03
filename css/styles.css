@@ -104,18 +104,18 @@ img {
     color: #404bbf;
 }
 
-            /* ORDER-SECTION */
+            /* HERO-SECTION */
 
-.order-section {
+.hero-section {
     background-color: #2e2f42;
     padding: 188px 0;
 }
 
-.container.order-container {
+.container.hero-container {
     align-items: center;
 }
 
-.order-section-text {
+.hero-section-text {
     color: #FFFFFF;
     text-align: center;
     font-style: normal;
@@ -128,7 +128,7 @@ img {
     padding-bottom: 48px;
 }
 
-.order-button {
+.hero-button {
     background-color:#4D5AE5; 
     font-family: "Roboto", sans-serif;
     color: #FFFFFF;
@@ -147,8 +147,8 @@ img {
     border-radius: 4px;
 }
 
-.order-button:hover,
-.order-button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 
